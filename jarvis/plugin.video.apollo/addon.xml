@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.apollo" 
+<addons>
+<addon id="plugin.video.apollo"
                name="[COLOR deepskyblue][B]APOLLO[/COLOR][/B]"
-       version="1.1.9" 
+       version="1.1.9"
        provider-name="APOLLO">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
@@ -14,7 +15,7 @@
     <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" /> 
+    <import addon="script.module.simplejson" />
 	<import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
     <import addon="script.module.livestreamer"/>
@@ -24,13 +25,13 @@
     <import addon="script.module.urlresolver"/>
     <import addon="script.module.unidecode" version = "0.4.16" />
   </requires>
-  <extension point="xbmc.python.pluginsource" library="apollo.py"> 
+  <extension point="xbmc.python.pluginsource" library="apollo.py">
         <provides>video</provides>
-  </extension>                   
+  </extension>
     <extension point="xbmc.addon.repository" name="Repositorio [COLOR orange][B]APOLLO[/B][/COLOR][COLOR deepskyblue][B][/B][/COLOR]">
 		<info compressed="false">https://raw.githubusercontent.com/Tiagotj/REPOSITORIO-APOLLO/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Tiagotj/REPOSITORIO-APOLLO/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Tiagotj/REPOSITORIO-APOLLO/master/ZipFiles</datadir> 
+		<datadir zip="true">https://raw.githubusercontent.com/Tiagotj/REPOSITORIO-APOLLO/master/ZipFiles</datadir>
 	</extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">[COLOR orange][B]FEITO PARA FAMILIA![/COLOR][/B]</summary>
@@ -39,3 +40,4 @@
     <platform>all</platform>
   </extension>
 </addon>
+</addons>
